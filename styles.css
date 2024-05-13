@@ -37,3 +37,13 @@ body {
   width: 30px;
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
+
+.container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .user-details .input-box {
+  width: calc(100% / 2 - 20px);
+}
